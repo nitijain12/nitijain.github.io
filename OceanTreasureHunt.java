@@ -10,7 +10,7 @@ public class OceanTreasureHunt
         Scanner scanner = new Scanner(System.in);
         Random rand = new Random();
 
-        int treasureSpot = rand.nextInt(10) + 1; // 1 to 10
+        int treasureSpot = rand.nextInt(10) + 1;
         int attempts = 5;
 
         System.out.println( "\n🌊 Welcome to the Ocean Treasure Hunt! 🐠" );
